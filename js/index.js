@@ -6,16 +6,16 @@ alert("arrey: " + fibArrey(num));
 
 function fibLoop(n) {
 
-    let num1 = 0;
-    let num2 = 1;
-    let num3 = 1;
+    let numA = 0;
+    let numB = 1;
+    let numC = 1;
 
     for (n = 2; n <= num; n++) {
-        num3 = num1 + num2;
-        num1 = num2;
-        num2 = num3;
+        numC = numA + numB;
+        numA = numB;
+        numB = numC;
     }
-    return num3;
+    return numC;
 }
 ;
 function fibRecursion(n) {
